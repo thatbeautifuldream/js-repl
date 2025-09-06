@@ -19,7 +19,7 @@ const defaultSnippet = `// JavaScript REPL
 //
 // Write JS below. Use console.log() to print output.
 
-console.log('Hello from Milind's JS REPL!')
+console.log("Hello from Milind's JS REPL!")
 `;
 
 export const useReplStore = create<ReplState>()(
